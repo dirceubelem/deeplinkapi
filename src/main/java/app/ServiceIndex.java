@@ -31,7 +31,7 @@ public class ServiceIndex {
         if (userAgent.contains("IPHONE") || userAgent.contains("IPAD")) {
             response.sendRedirect("https://apps.apple.com/br/app/fluo/id1501597114");
         } else if (userAgent.contains("ANDROID")) {
-            response.sendRedirect("http://pie.fourti.me/apk/deeplinkteste.apk");
+            response.sendRedirect("http://deeplink.fourti.me/deeplinkteste.apk");
         } else {
             response.sendRedirect("http://www.piebooking.com/");
         }
