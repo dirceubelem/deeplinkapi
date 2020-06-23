@@ -29,7 +29,7 @@ public class ServiceIndex {
         System.out.println(userAgent);
 
         if (userAgent.contains("IPHONE") || userAgent.contains("IPAD")) {
-            response.sendRedirect("https://apps.apple.com/br/app/fluo/id1501597114");
+            response.sendRedirect("https://apps.apple.com/br/app/uber/id368677368");
         } else if (userAgent.contains("ANDROID")) {
             response.sendRedirect("http://deeplink.fourti.me/deeplinkteste.apk");
         } else {
